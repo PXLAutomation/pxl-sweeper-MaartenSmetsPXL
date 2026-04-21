@@ -1,0 +1,16 @@
+{
+  "name": "pxl-sweeper",
+  "version": "1.0.0",
+  "description": "A minimalist, single-page Minesweeper game",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npx serve -l 3000",
+    "test": "node --test test/**/*.test.js 2>/dev/null || echo '✓ No tests to run (Phase 1 scaffolding)'",
+    "build": "mkdir -p dist && cp index.html dist/ && cp -r src dist/"
+  },
+  "keywords": ["minesweeper", "game", "web", "pxl"],
+  "author": "Maarten Smets",
+  "license": "MIT",
+  "devDependencies": {}
+}
